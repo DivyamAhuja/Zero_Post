@@ -24,6 +24,8 @@ app.use(express.json({
 }))
 const prod = process.env.PROD || false;
 
+app.use(express.static('public'))
+
 if (prod) {
     app.get('*', (req, res) => {
         res.sendFile(path.resolve(path.dirname('.'), 'public', 'index.html'))
