@@ -1,5 +1,7 @@
 # Zero
 
+https://zero-post.herokuapp.com/
+
 It's a simple social media application made using React for Frontend and Apollo and Express for Backend and MongoDB for database.
 
 : D
